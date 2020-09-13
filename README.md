@@ -23,7 +23,7 @@
 ##使用说明：
 *   1.下载
 *   2.修改配置文件参考：
-    *  (1).hivemeta/WEB-INF/classes/database.properties：
+    *  (1)src/main/resources/database.properties：
 ```Java
         #数据库连接池配置
         initialPoolSize = 10
@@ -39,7 +39,7 @@
         hive.password=
 ```
 
-    *  (2).hivemeta/WEB-INF/classes/common.properties：
+    *  (2)src/main/resources/common.properties：
 ```Java
     #hdfs连接配置
     namenode.url=hdfs://192.168.8.45:9000
